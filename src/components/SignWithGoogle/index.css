@@ -1,0 +1,124 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Kumbh+Sans:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+.sign-in-container {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: auto;
+    width: 100%;
+}
+
+.grid-item {
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+}
+
+.grid-item-container {
+    width: 100%;
+    height: 400px;
+    background-image: url("https://res.cloudinary.com/dj6c4lrt9/image/upload/v1733920069/dc597494c40bb0fd0e168494b84b1b2b_m96ewo.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.grid-item-container-3 {
+    height: 200px;
+    background-image: url("https://res.cloudinary.com/dj6c4lrt9/image/upload/v1733920177/cbee766eb05d851754d1499048b6e390_irosis.png");
+}
+
+.grid-item-container-1 {
+    padding-right: 8px;
+    padding-bottom: 8px;
+}
+
+.grid-item-container-2 {
+    background-image: url("https://res.cloudinary.com/dj6c4lrt9/image/upload/v1733920120/5beb7e681006f103fc15c10cf78c95a6_qo0saj.png");
+}
+
+.grid-item-container-2-1 {
+    background-image: url("https://res.cloudinary.com/dj6c4lrt9/image/upload/v1733925068/c862f1ea8a586d737528dccfd2363004_owzozw.png");
+}
+
+.grid-item-container-2-2 {
+    background-image: url("https://res.cloudinary.com/dj6c4lrt9/image/upload/v1733925568/66c9da0774bf0b45b020839469eb9db2_ekqvr4.png");
+}
+
+.grid-item-container-2-3 {
+    background-image: url("https://res.cloudinary.com/dj6c4lrt9/image/upload/v1733925737/8b0532ff490cf1da3f105bff7ab9f284_matwhz.png");
+}
+
+.grid-last-item-container {
+    padding-right: 0px;
+}
+
+.grid-last-item-1 {
+    background-image: url("https://res.cloudinary.com/dj6c4lrt9/image/upload/v1733926450/0c89da65a004e4f412a86eb5cde33adb_o9w0li.png");
+}
+
+.grid-last-item-2 {
+    background-image: url("https://res.cloudinary.com/dj6c4lrt9/image/upload/v1733926616/226326267c072588ee5d44a348cf48de_cjx9au.png");
+}
+
+.grid-last-item-3 {
+    background-image: url("https://res.cloudinary.com/dj6c4lrt9/image/upload/v1733926649/49a959926bc560b46056df7c41a10eca_wajvag.png");
+}
+
+.bottom-card-container {
+    background-color: #fff;
+    border-top-left-radius: 26px;
+    border-top-right-radius: 26px;
+    text-align: center;
+    position: absolute;
+    top: 90%;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 60px;
+}
+
+.google-btn {
+    background-color: #292929;
+    color: #fff;
+    line-height: 20px;
+    border-width: 0px;
+    border-radius: 20px;
+}
+
+.center-view {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.space {
+    margin: 10px;
+}
+
+.heading {
+    font-family: "Karla";
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.paragraph {
+    font-family: "Kumbh Sans";
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+}

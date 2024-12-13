@@ -1,0 +1,53 @@
+
+.popup-container {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    top: 190px;
+    left: 16px;
+    right: 16px;
+    gap: 0px;
+    border-radius: 12px 0px 0px 0px;
+    opacity: 0px;
+    background-color: #fff;
+}
+
+.popup-head-close-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon-container {
+    background-color: #E9F6FB;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.icon {
+    color: #03A9F4;
+    font-size: 30px;
+
+}
+
+.btn-icon {
+    background-color: transparent;
+    border: none;
+}
+
+.icon-list-container {
+    margin-bottom: 15px;
+}
+
+.icon-unorder-list-container {
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+
+.popup-edit-btn {
+    background-color: transparent;
+    line-height: 20px;
+    border-radius: 16px;
+}
